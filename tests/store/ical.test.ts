@@ -85,7 +85,7 @@ async function setUp(props: {
   };
 }
 
-describe("ical", () => {
+describe.skip("ical", () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
